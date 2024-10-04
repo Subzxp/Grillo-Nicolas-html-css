@@ -1,0 +1,43 @@
+/* Ejercicio 1: Centrar el texto en un span */
+#ejercicioUno {
+    display: block;
+    text-align: center;
+}
+
+/* Ejercicio 2: Ocultar el header */
+#ejercicioDos {
+    display: none;
+}
+
+/* Ejercicio 3: Posicionar la imagen dentro de la caja roja */
+#ejercicioTres {
+    position: absolute;
+    top: 95px;
+    left: 195px;
+}
+
+/* Ejercicio 4: Fijar la caja azul */
+#ejercicioCuatro {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+/* Ejercicio 5: Usar flexbox para espaciar los elementos */
+#ejercicioCinco {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Ejercicio 6: Reordenar los elementos del header */
+#ejercicioCinco {
+    flex-direction: row-reverse;
+}
+
+/* Ejercicio 7: Flexbox playground */
+#ejercicioSiete {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

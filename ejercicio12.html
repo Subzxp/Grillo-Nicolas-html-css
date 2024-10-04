@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Ejemplo</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        /* Estilos de la barra de navegación */
+        .navbar {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background: linear-gradient(to right, #1ABC9C, #5DADE2, #BB8FCE);
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 20px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            z-index: 1000;
+        }
+
+        .navbar .name {
+            font-size: 18px;
+            font-weight: bold;
+            margin-right: 20px;
+        }
+
+        .navbar .nav-links {
+            display: flex;
+            justify-content: center;
+            flex-grow: 1;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            margin: 0 20px;
+            font-size: 18px;
+            transition: color 0.3s;
+        }
+
+        .navbar a:hover {
+            color: #333;
+        }
+
+        /* Estilos de las secciones */
+        .section {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 36px;
+            color: #333;
+            padding: 60px 20px;
+        }
+
+        .section1, .section2 {
+            height: 100vh; /* Ocupa el 100% de la pantalla */
+        }
+
+        .section1 {
+            background-color: #DAF7A6;
+        }
+
+        .section2 {
+            background-color: #FAD7A0;
+        }
+
+        .section3 {
+            height: 50vh; /* Altura menor simulando un pie de página */
+            background-color: #333;
+            color: white;
+        }
+
+        /* Estilos para anclas */
+        #section1, #section2, #section3 {
+            padding-top: 50px; /* Desplazamiento para que no tape la sección */
+            margin-top: -50px; /* Compensación del padding */
+        }
+
+    </style>
+</head>
+<body>
+    <!-- Barra de navegación -->
+    <div class="navbar">
+        <div class="name">Grillo Nicolas</div>
+        <div class="nav-links">
+            <a href="#section1">Sección 1</a>
+            <a href="#section2">Sección 2</a>
+            <a href="#section3">Sección 3</a>
+        </div>
+    </div>
+
+    <!-- Secciones del documento -->
+    <div id="section1" class="section section1">
+        Sección 1
+    </div>
+    <div id="section2" class="section section2">
+        Sección 2
+    </div>
+    <div id="section3" class="section section3">
+        Sección 3
+    </div>
+</body>
+</html>

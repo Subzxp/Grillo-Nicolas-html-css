@@ -1,0 +1,11 @@
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 50px;
+}
+thead {
+    background-color: lightgray;
+}
+.destacar {
+    background-color: #7DCEA0 ;
+}
